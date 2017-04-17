@@ -19,7 +19,7 @@ You can grad a dockerized version of the app:
     
 Then, create a custom `config.prod.yml` and mount it into the `app` directory:
 
-    $ docker run --rm -name iwnx-updater -v config.prod.yml:/usr/src/dyndns-updater/app/config.prod.yml -p 9000:9000
+    $ docker run --rm -name iwnx-updater -v config.prod.yml:/usr/src/dyndns-updater/app/config.prod.yml -p 9000:9000 frostiede/iwnx-dyndns
     
 **Note:** See the Docker documentation on how to mount volumes. You may also specify a local port other than `9000` if 
  this port is already in use.
