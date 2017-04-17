@@ -1,0 +1,16 @@
+{
+    "require": {
+        "silex/silex": "~2.0",
+        "inwx/domrobot": "^2.4",
+        "monolog/monolog": "^1.20",
+        "symfony/yaml": "^3.2",
+        "frostiede/silex-environment-serviceprovider": "^1.0",
+        "frostie/silex-config-service-provider": "^2.1",
+        "ext-xmlrpc": "*"
+    },
+    "autoload": {
+        "psr-0": {
+            "DyndnsUpdater": "./src"
+        }
+    }
+}

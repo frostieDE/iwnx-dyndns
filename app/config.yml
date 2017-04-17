@@ -1,0 +1,7 @@
+domrobot:
+  url: 'https://api.domrobot.com/xmlrpc/'
+  username: ''
+  password: ''
+  shared_secret: null
+
+domains: [ ]
